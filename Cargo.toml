@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+members = ["coin"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/kobakaku/abci-coin"
+authors = ["kobakaku"]
+
+[workspace.dependencies]
+async-trait = "0.1.71"
+anyhow = { version = "1.0.68", default-features = false }
+serde = { version = "1.0.192", features = ["derive", "rc"] }
+serde_json = { version = "1.0" }
+clap = { version = "4.4.10", features = ["derive"] }
+tracing = "0.1.40"
+tracing-subscriber = "0.3"
+tokio = { version = "1", features = ["full"] }

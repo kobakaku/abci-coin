@@ -1,1 +1,1 @@
-# abci-app
+# abci-coin (in development)

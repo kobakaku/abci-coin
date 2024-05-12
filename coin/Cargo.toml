@@ -1,0 +1,15 @@
+[package]
+name = "coin"
+resolver = "2"
+version = { workspace = true }
+edition = { workspace = true }
+authors = { workspace = true }
+
+[dependencies]
+anyhow = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { version = "0.3.17", features = ["env-filter"] }
+
+[features]
+default = []
